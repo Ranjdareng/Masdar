@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Masdar Al-Adawat - Your Trusted Partner for Car Spare Parts"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <title>Masdar Al-Adawat - Car Spare Parts</title>
+
+    <!-- Tailwind CSS CDN with Custom Colors - MOVED HERE FOR GLOBAL APPLICATION -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'primary-dark': '#1A2B4D', // Dark blue from the image
+              'primary-medium': '#2E4A86', // Medium blue for accents/hover
+              'light-bg': '#E6F0FF', // Very light blue for section backgrounds
+              'light-accent': '#D0E0FF', // Slightly darker light blue for accents
+            },
+            fontFamily: {
+              inter: ['Inter', 'sans-serif'], // Ensure Inter font is available
+            }
+          }
+        }
+      }
+    </script>
+    <!-- Google Fonts - Inter - MOVED HERE FOR GLOBAL APPLICATION -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
