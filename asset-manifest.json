@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Masdar/static/css/main.572a4366.css",
-    "main.js": "/Masdar/static/js/main.aa1f6dde.js",
+    "main.js": "/Masdar/static/js/main.5811644e.js",
     "static/js/453.d950cb17.chunk.js": "/Masdar/static/js/453.d950cb17.chunk.js",
     "index.html": "/Masdar/index.html",
     "main.572a4366.css.map": "/Masdar/static/css/main.572a4366.css.map",
-    "main.aa1f6dde.js.map": "/Masdar/static/js/main.aa1f6dde.js.map",
+    "main.5811644e.js.map": "/Masdar/static/js/main.5811644e.js.map",
     "453.d950cb17.chunk.js.map": "/Masdar/static/js/453.d950cb17.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.572a4366.css",
-    "static/js/main.aa1f6dde.js"
+    "static/js/main.5811644e.js"
   ]
 }
